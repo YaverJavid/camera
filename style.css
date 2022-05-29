@@ -3,40 +3,50 @@ body {
   background: #2537FABA
 }
 
-canvas{
-  border:1px solid black;
-  transform: scale(1, 1);
-  width: 82.5%;
+canvas {
+  border: 1px solid black;
+  width: 85%;
   border: 1px solid white;
-  
+
 }
-button{
-  color : white;
+
+button {
+  color: white;
   border: 1px solid white;
   background: #4350DD
 }
-.container-flex{
+
+.container-flex {
   display: flex;
   align-content: center;
-  gap:1%;
-  margin-bottom:1vw
+  gap: 1%;
+  margin-bottom: 1vw
 }
-#capture{
-  width:100.7%;
+
+#capture {
+  width: 84.6%;
   height: 4em;
-    margin-bottom:1vw
-
-}
-img{
-    border: 1px solid white;
-   width: 48.8%;
-   transform: scale(1,1);
+  margin-bottom: 1vw
 }
 
-.container-images{
+img {
+  border: 1px solid white;
+  width: 48.8%;
+}
+
+.container-images {
   overflow: hidden;
-  width:101%;
-  display:flex;
+  width: 101%;
+  display: flex;
   flex-wrap: wrap;
   gap: 1vw;
+}
+#swc{
+  width:13.9%;
+  height: 4em;
+}
+.container-buttons{
+  display: flex;
+  gap: 1.2%;
+  width: 101%;
 }

@@ -25,10 +25,9 @@ function handleCamera() {
   if (!video) return
   ctx.drawImage(video, 0, 0, canvas.width, canvas.height)
   imgd = ctx.getImageData(0, 0, canvas.width, canvas.height)
-  imgd = Filters.greyScale(imgd,'s')
-  ctx.putImageData(imgd, 0, 0)
-
-}
+  imgd = Filters.dualColor(imgd)
+  ctx.putImageData(imgd, 0,0)
+} 
 
 
 document.getElementById('capture').addEventListener('click', () => {

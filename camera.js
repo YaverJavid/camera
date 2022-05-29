@@ -1,7 +1,7 @@
 const constraints = {
   video: {
     facingMode: {
-      exact: 'environment'
+      exact: 'user'
     }
   }
 };
