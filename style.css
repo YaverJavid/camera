@@ -5,8 +5,10 @@ body {
 
 canvas {
   border: 1px solid black;
-  width: 85%;
+  width: 83%;
   border: 1px solid white;
+    /* transform: scaleX(-1) */
+
 
 }
 
@@ -24,9 +26,9 @@ button {
 }
 
 #capture {
-  width: 84.6%;
+  width: 65%;
   height: 4em;
-  margin-bottom: 1vw
+  margin-bottom: 1vw;
 }
 
 img {
@@ -42,7 +44,7 @@ img {
   gap: 1vw;
 }
 #swc{
-  width:13.9%;
+  width:35%;
   height: 4em;
 }
 .container-buttons{
@@ -50,3 +52,4 @@ img {
   gap: 1.2%;
   width: 101%;
 }
+
