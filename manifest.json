@@ -1,0 +1,15 @@
+{
+    "name": "camera",
+    "short_name": "cam",
+    "start_url": ".",
+    "background_color": "#2537FA",
+    "theme_color": "#2537FA",
+    "display":"standalone",
+    "icons": [
+        {   "src":"images/favicon.png",
+            "sizes":"1080x1080",
+            "type":"image/png",
+            "purpose": "maskable"
+        }
+     ]
+}
