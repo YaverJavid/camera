@@ -1,3 +1,14 @@
+//service w here
+
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register('sw.js').
+    then(register => {
+    }).
+    catch(reason => alert('service-worker-error'))
+}
+
+// end
+
 const canvas = document.querySelector('canvas')
 const ctx = canvas.getContext('2d')
 
