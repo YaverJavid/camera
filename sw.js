@@ -9,7 +9,9 @@ self.addEventListener('install', e => {
                 "filters.js",
                 "camera.js",
                 "audio/camera-13695.wav",
-                "style.css"
+                "style.css",
+                "sw.js",
+                "favicon.ico"
                 ])
         })
     )
