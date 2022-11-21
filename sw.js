@@ -11,7 +11,8 @@ self.addEventListener('install', e => {
                 "audio/camera-13695.wav",
                 "style.css",
                 "sw.js",
-                "favicon.ico"
+                "favicon.ico",
+                "manifest.json"
                 ])
         })
     )
