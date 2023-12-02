@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html lang="en">
+
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name='theme-color' content='#5b6bfb'>
+     <title>Camera </title>
+     <!-- HTML -->
+     <!-- Custom Styles -->
+     <link rel="icon" type="image/x-icon" href="/camera/images/favicon.ico">
+     <link rel="stylesheet" href="style.css">
+     <link rel="manifest" href="manifest.json">
+     <link rel="apple-touch-icon" href="images/favicon.png">
+ </head>
+
+ <body>
+     <div class="container-flex">
+         <canvas></canvas>
+         <button onclick="updateFrame(0); start.innerHTML = '...'" id="start">Stream</button>
+     </div>
+     <div id="container-buttons">
+         <button id="capture">Capture </button>
+         <button id="swc">SC</button>
+     </div>
+          <div id="container-colors">
+
+     <input type="color" id="c1">
+     <input type="color" id="c2" value="#ffffff">
+</div>
+     <div class="container-images">
+
+     </div>
+     <audio id="audio" src="audio/camera-13695.wav"></audio>
+     <!-- Project -->
+     <script src="utils.js"></script>
+       <script src="filters.js"></script>
+       <script src="camera.js"></script>
+       <script src="main.js"></script>
+
+ </body>
+
+ </html>
